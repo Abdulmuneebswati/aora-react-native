@@ -43,6 +43,7 @@ const TabsLayout = () => {
           return (
             <Tabs.Screen
               name={item.name}
+              key={item.name}
               options={{
                 title: item.title,
                 headerShown: false,
